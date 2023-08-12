@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Wrapper, Button } from './styles'; // Import the shared style
+import { Wrapper, Button } from './styles';
 
 
 
