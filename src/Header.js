@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import NavigationBar from './NavigationBar';
+
 
 
 const HeaderWrapper = styled.header`
@@ -13,6 +15,7 @@ const Header = () => {
   return (
     <HeaderWrapper>
       <h1>Timr.</h1>
+      <NavigationBar />
     </HeaderWrapper>
   );
 };

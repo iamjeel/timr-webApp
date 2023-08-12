@@ -5,6 +5,10 @@ export const Wrapper = styled.div`
   padding: 20px;
   margin: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 52.7vh;
 `;
 
 export const Input = styled.input`
